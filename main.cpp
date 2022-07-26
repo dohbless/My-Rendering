@@ -2,7 +2,6 @@
 #include<fstream>
 #include"math.h"
 #include "ray.h"
-using namespace std;
 //test if ok
 //判断光线hit sphere具体位置
 float hit_sphere(const vec3 center,float radius,const ray r)
@@ -44,6 +43,7 @@ int main()
      my<<"P3"<<endl;
      int x=200;
      int y=100;
+
      my<<x<<" "<<y<<endl;
      my<<255<<endl;
      vec3 ray_start(0.0,0.0,0.0);
